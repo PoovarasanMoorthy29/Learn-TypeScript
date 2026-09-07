@@ -1,2 +1,5 @@
 let userName : string='poovarasan';
-console.log(userName);
+
+let age : number =21; //  number contains float , Integers, hexadecimal etc.,
+
+let status : boolean = true;
