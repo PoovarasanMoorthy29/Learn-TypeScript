@@ -1,2 +1,8 @@
 let userName : string='poovarasan';
-console.log(userName);
+
+let age:number=21;// number includes float,integer,hexadecimal etc...
+
+let isCompleted : boolean =true;
+const myBigNumber=BigInt(1234567899);
+console.log(myBigNumber);
+
