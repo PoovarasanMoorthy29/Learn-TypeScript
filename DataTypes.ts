@@ -1,18 +1,21 @@
-<<<<<<< HEAD
-let userName : string='poovarasan';
+// string 
+var names :  string='poovarasan';
+console.log(names);
 
-let age:number=21;// number includes float,integer,hexadecimal etc...
+// numbers 
 
-let isCompleted : boolean =true;
-const myBigNumber=BigInt(1234567899);
-console.log(myBigNumber);
-const mySymbol = Symbol('hello');
-console.log(mySymbol)
+var num: number=123;
+console.log('Integer: '+num);
+var num1:number =19.20;
+console.log('Float: '+num1);
+var num2:number =0xf00d;
+console.log("Hexadecimal: "+num2);
 
-=======
-let userName : string ='poovarasan';
+// bigint 
+const bigNumber=BigInt('123456789987654321');
+console.log("Big Number: "+bigNumber);
 
-let age : number =21; //  number contains float , Integers, hexadecimal etc.,
-
-let isCompleted : boolean = true;
->>>>>>> 27ba2bfa8f106462e57deec73b177ba803ebab06
+//symbol
+// unique value while the description not to be unique('hello')..
+const unique=Symbol('hello');
+console.log('Symbol: ',unique);
