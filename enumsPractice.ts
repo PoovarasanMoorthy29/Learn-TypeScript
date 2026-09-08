@@ -1,7 +1,8 @@
 enum directions{
     UP,
-    DOWN=10,
+    DOWN,
     RIHGT,
     LEFT
 }
-console.log(directions.DOWN);
+const drStatus :directions =directions.DOWN;
+console.log(drStatus);
