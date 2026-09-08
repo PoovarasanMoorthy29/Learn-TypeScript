@@ -11,3 +11,9 @@ console.log(age);
 let cardNo=12334556;
 let characterName="Jon snow";
 console.log("card no: "+cardNo);
+
+
+//examples
+
+let a:string| number | boolean = true;
+console.log(a);
